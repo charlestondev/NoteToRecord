@@ -1,0 +1,58 @@
+<resources>
+
+    <string name="app_name">Note To Record</string>
+    <string name="action_settings">Settings</string>
+    <string name="confirm">Confirm</string>
+    <string name="meaning">Meaning</string>
+    <string name="phrase">Word</string>
+    <string name="next">Next</string>
+    <string name="search">Search</string>
+    <string name="mode">Mode</string>
+    <string name="type_your_note_here">Type your note here</string>
+    <string name="preference_file_key">note_preference</string>
+    <string name="show">Show</string>
+    <string name="check">Check</string>
+    <string name="add_item">Add items</string>
+    <string name="add">Add</string>
+    <string name="press_to_edit">Touch and hold to edit the items</string>
+    <string name="config">Settings</string>
+    <string name="review">Review</string>
+    <string name="gap_days_review">Days to the next review</string>
+    <string name="review_per_time">Review per time</string>
+    <string name="review_times">Repeat review</string>
+    <string name="summary_gap_days">Interval days to wait to the next review</string>
+    <string name="summary_times">How many times i need to check to review completion</string>
+    <string name="selected">selected</string>
+    <string name="no_words">There is no words to review</string>
+    <string name="checked">Check</string>
+    <string name="reviewed">Last review</string>
+    <string name="edit">Edit</string>
+    <string name="there_is_this_word">This word is already registered</string>
+    <string name="credits">Credits</string>
+    <string name="translation_to_french">Translation to french</string>
+    <string name="version">Version</string>
+    <string name="license">License</string>
+    <string name="manage_cards">Manage cards</string>
+    <string name="manage_memos">Manage memos</string>
+    <string name="void_word">Without word!</string>
+    <string name="resize_text">Resize widget text</string>
+    <string name="summary_resize_text">Resize widget text when its is being resized</string>
+    <string name="save_data">Save data on SD card?</string>
+    <string name="cancel">Cancel</string>
+    <string name="restore_data">Restore data from SD?</string>
+    <string name="message_restore">This will overwrite any previous data, are you sure?</string>
+    <string name="data_saved">Data saved on SD Card/Documents</string>
+    <string name="not_possible_save">It\'s not possible to save the file!</string>
+    <string name="restored">Data restored</string>
+    <string name="not_possible_restore">It\'s not possible to restore the data!</string>
+    <string-array name="modes">
+        <item>Sticky note</item>
+        <item>Flash cards</item>
+        <item>Remember</item>
+    </string-array>
+    <string-array name="modes_desc">
+        <item>In this mode, the text only appears in the widget</item>
+        <item>Flashcards</item>
+        <item>In this mode, are showed the recorded words and its meanings, and you can check which you remember. More info in settings</item>
+    </string-array>
+</resources>

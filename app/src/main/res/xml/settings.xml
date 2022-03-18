@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/review"
+        >
+        <ListPreference
+            android:key="gap_days"
+            android:title="@string/gap_days_review"
+            android:entries="@array/days"
+            android:entryValues="@array/days"
+            android:summary="@string/summary_gap_days"
+        />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/review_per_time"
+        >
+        <ListPreference
+            android:key="review_times"
+            android:title="@string/review_times"
+            android:entries="@array/times"
+            android:entryValues="@array/times"
+            android:summary="@string/summary_times"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/review_per_time"
+        >
+        <CheckBoxPreference
+            android:title="@string/resize_text"
+            android:defaultValue="true"
+            android:summary="@string/summary_resize_text"
+            android:key="resize_text" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/save_data">
+        <com.ntr.preferences.SaveWords
+            android:title="@string/save_data"
+            android:summary="@string/save_data"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/restore_data">
+        <com.ntr.preferences.RestoreWords
+            android:title="@string/restore_data"
+            android:summary="@string/restore_data"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/credits">
+        <PreferenceScreen android:title="@string/version" android:summary="@string/versionName"></PreferenceScreen>
+        <Preference android:title="@string/license" >
+            <intent android:action="android.intent.action.VIEW"
+                    android:data="http://www.apache.org/licenses/LICENSE-2.0" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

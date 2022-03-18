@@ -1,0 +1,10 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:minWidth="110dp"
+    android:minHeight="110dp"
+    android:updatePeriodMillis="0"
+    android:previewImage="@drawable/fundo"
+    android:initialLayout="@layout/widget"
+    android:resizeMode="horizontal|vertical">
+</appwidget-provider>
+    <!--android:configure="com.ntr.NoteConfigure"-->
